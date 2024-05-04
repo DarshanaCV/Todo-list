@@ -1,0 +1,77 @@
+.task-input-container{
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+    align-items:end;
+}
+.add-task{
+    width: 10%;
+    background-color: rgb(95, 110, 178);
+    padding: 1%;
+    border-radius: 10px;
+    border:2px solid rgb(233, 232, 232);
+    cursor: pointer;
+    font-size: large;
+    letter-spacing: 0.5px;
+    font-weight: 400;
+    color: white;
+    margin-right: 3%;
+}
+
+
+.task-list-container{
+    padding: 0% 5% 0% 4%;
+    margin-top: -6%;
+}
+.task-header{
+    font-weight: 400;
+}
+.task-header-completed{
+    font-weight: 400;
+    margin-top: 4%;
+}
+.task-container{
+    display: grid;
+    grid-template-columns: 0% 88% 3%;
+    justify-content: space-between;
+    align-items: start;
+    text-align: left;
+    height: 50px;
+    background: none;
+    border: none;
+    margin-bottom: 10px;
+    background-color: rgb(249, 249, 249);
+    border-radius: 10px;
+    border: 2px solid rgb(233, 232, 232);
+    z-index: 1;
+}
+.checkbox{
+    margin-top: 15px;
+    height: 20px;
+    margin-left: -198px;
+    cursor: pointer;
+}
+
+.text{
+    text-align: left;
+}
+
+.show-description{
+    cursor: pointer;
+    margin-top: 20%;
+}
+.delete{
+    cursor: pointer;
+}
+.task-description{
+    background-color: rgb(252, 252, 252);
+    text-align: center;
+    margin-bottom: 1%;
+    border: 1px solid rgb(239, 239, 239);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-top: -0.8%;
+    padding: 2%;
+    display: grid;
+    grid-template-columns: 99% 0%;
+}
